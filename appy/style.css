@@ -438,7 +438,9 @@ input:-webkit-autofill:focus {
 .home-area .mobile-image {
     margin-right: 0;
     margin-left: 0;
-    margin-bottom: -158px;
+    margin-top: -20px;
+    margin-bottom: -50px;
+    
 }
 
 /*-- 8. Progress-Area --*/
@@ -454,6 +456,7 @@ input:-webkit-autofill:focus {
 
 .progress-area .mobile-image {
     margin-top: -90px;
+    margin-left: 90px;
     margin-bottom: -153px;
 }
 
@@ -665,8 +668,9 @@ input:-webkit-autofill:focus {
 }
 
 .gallery-slide .owl-stage-outer {
-    background: url('images/mobile-screen.png') no-repeat center right / auto 90%;
-
+    background: url('images/hp.png') no-repeat center right / auto 89%;
+    padding-bottom: 20px;
+    padding-left: 3px;
 }
 
 .gallery-slide .item {
@@ -844,11 +848,11 @@ input:-webkit-autofill:focus {
 }
 
 .price-box .price-footer .bttn-white {
-    padding: 13px 50px;
+    padding: 18px 60px;
 }
 
 .price-box .price-footer .bttn-white:before {
-    width: calc(100% - 4px);
+    width: calc(100% - 6px);
     height: calc(100% - 4px);
     border-radius: 100px;
     left: 2px;
@@ -944,7 +948,10 @@ input:-webkit-autofill:focus {
 /*-- 18. Footer-Area --*/
 
 .footer-box {
+    padding-left: 450px;
     text-align: center;
+    margin-right: 50px;
+    color: white;
 
 }
 
@@ -986,11 +993,12 @@ input:-webkit-autofill:focus {
     z-index: -1;
     -webkit-transition: 0.3s;
     -o-transition: 0.3s;
-    transition: 0.3s
+    transition: 0.3s;
 }
 
 .footer-box:hover .box-icon {
     color: #5e88fc;
+    position: center;
 }
 
 .footer-box:hover .box-icon:before {
@@ -1016,7 +1024,7 @@ input:-webkit-autofill:focus {
 
 .footer-bottom .footer-menu ul li a {
     padding: 10px;
-    color: #8790af
+    color: #8790af;
 }
 
 .footer-bottom .footer-menu ul li a:hover {
